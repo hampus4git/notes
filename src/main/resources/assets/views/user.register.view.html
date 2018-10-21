@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+<form ng-submit="vm.register()">
+    <h4>Register</h4>
+    <p6>Username: </p6><br/>
+    <input name="username" type="text" ng-model="vm.username"> </br>
+    <p6>Password: </p6><br/>
+    <input name="password" type="text" ng-model="vm.password"> </br></br>
+    <button class="btn btn-success" type="submit">Register Now</button>
+    <button ng-click="vm.redirectLogin()" class="btn btn-danger" type="submit">Cancel</button>
+</form>
+</body>
+</html>

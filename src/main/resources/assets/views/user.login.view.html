@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <title>Login </title>
+    </head>
+    <form ng-submit="vm.login()">
+        <h4>Login </h4>
+        <p6>Username: </p6><br/>
+        <input name="username" type="text" ng-model="vm.username"><br/>
+        <p6>Password: </p6><br/>
+        <input name="password" type="password" ng-model="vm.password"><br/><br/>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <button ng-click="vm.register()" type="submit" class="btn btn-success">Sign Up</button>
+    </form>
+    </body>
+    </html>
